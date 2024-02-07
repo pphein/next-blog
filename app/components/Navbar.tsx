@@ -12,7 +12,7 @@ export default function Navbar() {
                         Pyae Phyo Hein
                     </Link>
                 </h1>
-                <div className="flex flex-row justify-center sm:justify-evently align-middle gap-4 text-white text-4xl lg:text-5xl">
+                {/* <div className="flex flex-row justify-center sm:justify-evently align-middle gap-4 text-white text-4xl lg:text-5xl">
                     <Link
                         className="text-white/90 hover:text-white"
                         href="https://www.facebook.com/pph.hein"
@@ -24,6 +24,14 @@ export default function Navbar() {
                         href="https://www.github.com/pphein"
                     >
                         <FaGithub />
+                    </Link>
+                </div> */}
+                <div className="text-2xl font-bold text-white grid place-content-center mb-2 md:mb-0">
+                    <Link
+                        className="text-white/90 hover:text-white"
+                        href="/posts"
+                    >
+                        Blogs
                     </Link>
                 </div>
             </div>
