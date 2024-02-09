@@ -1,4 +1,7 @@
-## Duplication in spelling for NRC towship code
+---
+title: Duplication in spelling for NRC towship code
+date: 2024-02-09
+---
 
 ### Total
 
