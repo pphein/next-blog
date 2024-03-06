@@ -1,0 +1,12 @@
+version: '3'
+services:
+  app:
+    build:
+      context: .
+      dockerfile: Dockefile
+    image: custom-node:lts
+    # image:  node:20.11.1-alpine3.19
+    tty: true
+    container_name: test
+    volumes:
+      - ..:/workspace
